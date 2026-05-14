@@ -1,8 +1,10 @@
+
+
 # esp32-embedded-stoplight
 An embedded C++/Arduino project using an ESP32 microcontroller to simulate a stoplight and crosswalk.
 
 ## Video
-//add video
+https://www.youtube.com/shorts/EiKcDvJLNV0
 
 ## Description
 The program begins with the green light in a stoplight illuminated. Upon a button press, simulating a pedestrian arriving at a crosswalk, the stoplight will change to yellow, and then red. Once red, the pedestrian "X" will turn to a countdown from 9, simulating the pedestrian being allowed to cross. As the timer runs out, and audible beep will sound until the timer reaches 0, in which case it will change back to a red "X", and the stoplight will cycle back to green.
